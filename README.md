@@ -1,7 +1,7 @@
 
-# Interactive Story Generator
+# AI Story Generator
 
-Interactive Story Generator is a web application that allows users to create custom stories by setting genres, characters, and the story's setting. This application uses a React-based frontend and a Python backend to handle requests and generate stories.
+AI Story Generator is a web application that allows users to create custom stories by setting genres, characters, and the story's setting. This application uses a React-based frontend and a Python backend to handle requests and generate stories.
 
 ## Features
 
@@ -23,8 +23,8 @@ To get this project up and running on your local machine, follow these steps:
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/yourusername/interactive-story-generator.git
-cd interactive-story-generator
+git clone https://github.com/yourusername/ai-story-generator.git
+cd ai-story-generator
 ```
 
 ### Setting Up the Frontend
@@ -59,7 +59,7 @@ Once both servers are running, open your web browser and go to `http://localhost
 
 ## Contributing
 
-Contributions to the Interactive Story Generator are welcome! Here's how you can contribute:
+Contributions to the AI Story Generator are welcome! Here's how you can contribute:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
