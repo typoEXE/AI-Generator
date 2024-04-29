@@ -9,8 +9,11 @@ function StoryGenerator() {
     const [setting, setSetting] = useState('');
     const [story, setStory] = useState('');
     const [letters, setLetters] = useState([]);
+    const [isPressed, setIsPressed] = useState(false);
 
     const generateStory = () => {
+        setIsPressed(true);
+        setTimeout(() => setIsPressed(false), 200); // Resets after 100ms
         axios.post('/generate_custom_story', { genre, characters, setting })
             .then(response => {
                 setStory(response.data.story);
@@ -69,7 +72,7 @@ function StoryGenerator() {
                 <input type="text" value={characters} onChange={e => setCharacters(e.target.value)} placeholder="Enter Characters" style={inputStyle} />
                 <input type="text" value={setting} onChange={e => setSetting(e.target.value)} placeholder="Enter Setting" style={inputStyle} />
             </div>
-            <button className="btn" onClick={generateStory}>Generate Story</button>
+            <button className={`btn ${isPressed ? 'btn-pressed' : ''}`} onClick={generateStory}>Generate Story</button>
             {story && (
                 <div className="story-container">
                 <div className="story-header">Your Story</div>

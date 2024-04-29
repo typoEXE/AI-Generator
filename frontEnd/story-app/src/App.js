@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Interactive Story Generator</h1>
+        <h1>AI Story Generator</h1>
         <StoryGenerator />
       </header>
     </div>

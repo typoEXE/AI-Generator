@@ -130,3 +130,6 @@
   border: 0;
 }
 
+.btn-pressed {
+  transform: scale(0.65); /* Makes the button slightly smaller */
+}
