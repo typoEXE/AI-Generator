@@ -24,7 +24,7 @@ To get this project up and running on your local machine, follow these steps:
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-story-generator.git
+git clone https://github.com/yourusername/ai-generator.git
 cd ai-story-generator
 ```
 
@@ -56,7 +56,7 @@ python app.py
 
 ## Usage
 
-Once both servers are running, open your web browser and go to `http://localhost:3000` to start generating stories. Select your preferred genre, characters, and setting, then click "Generate Story" to see your custom story.
+Once both servers are running, open your web browser and go to `http://localhost:3000` to start generating stories and songs. Select your preferred attributes then click "Generate Story" or "Generate Song" to see your custom story and/or song.
 
 ## Contributing
 
@@ -75,4 +75,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgments
 
-- Thanks to all contributors who have helped with new features, bug fixes, and improving the application.
+- Typo is the sole developer of this project.
