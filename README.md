@@ -1,7 +1,7 @@
 
 # AI Generator
 
-AI Generator is a web application that allows users to create custom stories and songs by custom picked attributes tailored to what they're looking for. This application uses a React-based frontend and a Python backend to handle requests and generate stories.
+AI Generator is a web application that allows users to create custom stories and songs by custom picked attributes tailored to what they're looking for. This application uses a React-based frontend and a Python (Flask) backend to handle requests and generate stories.
 
 ## Features
 
