@@ -25,7 +25,7 @@ To get this project up and running on your local machine, follow these steps:
 
 ```bash
 git clone https://github.com/yourusername/ai-generator.git
-cd ai-story-generator
+cd ai-generator
 ```
 
 ### Setting Up the Frontend
@@ -75,4 +75,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgments
 
-- Typo is the sole developer of this project.
+- TypoEXE is the sole developer of this project.
